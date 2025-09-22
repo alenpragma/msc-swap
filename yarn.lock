@@ -6931,7 +6931,7 @@
     "rustbn.js" "~0.2.0"
     "safe-buffer" "^5.1.1"
 
-"ethers@^5.0.25", "ethers@^5.4.4":
+"ethers@^5.0.25", "ethers@^5.0.7":
   "integrity" "sha512-DUq+7fHrCg1aPDFCHx6UIPb3nmt2XMpM7Y/g2gLhsl3lIBqeAfOJIl1qEvRf2uq3BiKxmh6Fh5pfp2ieyek7Kg=="
   "resolved" "https://registry.npmjs.org/ethers/-/ethers-5.8.0.tgz"
   "version" "5.8.0"
@@ -10449,7 +10449,7 @@
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.1.tgz"
   "version" "2.1.1"
 
-"msc-uikit@^0.1.15":
+"msc-uikit@^0.1.11":
   "integrity" "sha512-bRIEDgmusdYpYulo0oRyu+bKOdmXY/fR3ZIv/uXa3w4cQG8oKQ/VLA6iOQy9+p2sTuOMJxSTU0CqdMMZ+0F1hg=="
   "resolved" "https://registry.npmjs.org/msc-uikit/-/msc-uikit-0.1.16.tgz"
   "version" "0.1.16"

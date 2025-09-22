@@ -12,11 +12,12 @@ import TransactionUpdater from './state/transactions/updater'
 import GlobalStyle from './style/Global'
 
 if ('ethereum' in window) {
-  (window.ethereum as any).autoRefreshOnNetworkChange = false
+  // eslint-disable-next-line @typescript-eslint/no-extra-semi
+  ;(window.ethereum as any).autoRefreshOnNetworkChange = false
 }
 
 window.addEventListener('error', () => {
-   localStorage?.removeItem('redux_localstorage_simple_lists')
+  localStorage?.removeItem('redux_localstorage_simple_lists')
 })
 
 ReactDOM.render(
