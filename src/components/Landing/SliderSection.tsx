@@ -1,4 +1,4 @@
-import 'keen-slider/keen-slider.min.css'
+// import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 import styled from 'styled-components'
 

@@ -1,6 +1,6 @@
 import { icons } from 'context/allAsset'
-import { ArrowRight } from 'lucide-react'
 import { useState } from 'react'
+import { ArrowRight } from 'react-feather'
 import styled from 'styled-components'
 
 const CryptoTicker = () => {
@@ -32,9 +32,9 @@ const CryptoTicker = () => {
                   {crypto.price < 1
                     ? crypto.price.toFixed(3)
                     : crypto.price.toLocaleString(undefined, {
-                        minimumFractionDigits: 3,
-                        maximumFractionDigits: 3,
-                      })}
+                      minimumFractionDigits: 3,
+                      maximumFractionDigits: 3,
+                    })}
                 </Price>
               </PriceInfo>
             </PriceItem>
